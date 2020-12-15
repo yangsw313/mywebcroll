@@ -33,6 +33,8 @@ tlogin_login = '//*[@id="authLogin"]'  # T 로그인 팝업창에서 로그인 �
 driver.implicitly_wait(5)
 print("FLO 들어가는중...")
 driver.get(url)
+driver.implicitly_wait(3)
+print("my first commti")
 driver.implicitly_wait(5)
 login_btn = driver.find_element_by_xpath(first_login)
 driver.implicitly_wait(5)  # flo 로그인 버튼 찾고 클릭
