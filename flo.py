@@ -79,7 +79,8 @@ print("팝업 재스위치 중...")
 last_tap1 = driver.window_handles[0]
 driver.switch_to.window(window_name=last_tap1)
 driver.implicitly_wait(3)
-
+print("my second commit real")
+print("my secondsecond")
 # 키워드 검색
 time.sleep(2)
 print("'%s' 입력중.." % search)
